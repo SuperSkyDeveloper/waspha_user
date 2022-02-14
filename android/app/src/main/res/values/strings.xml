@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WASPHA</string>
+    <string name="facebook_app_id">2738865912993348</string>
+<string name="fb_login_protocol_scheme">fb2738865912993348</string>
+</resources>

@@ -1,0 +1,1337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WasphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WasphaTests.m */; };
+		02B90EBB8AE648CF84A936B7 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		048C45B225A723B5008B51EE /* void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C45B125A723B5008B51EE /* void.swift */; };
+		048C45B325A723B5008B51EE /* void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C45B125A723B5008B51EE /* void.swift */; };
+		051F41B2A55240ACA25FA2A7 /* MontserratAlternates-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03381C086D1844D9BA2CC656 /* MontserratAlternates-SemiBoldItalic.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* WasphaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WasphaTests.m */; };
+		56091A4F8057EC45288CECF7 /* libPods-Waspha-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9424215C5B15A3ABDEEADD40 /* libPods-Waspha-tvOS.a */; };
+		5CBB20BE24BEF7EB00BFFCAB /* MontserratAlternates-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB209B24BEF7E800BFFCAB /* MontserratAlternates-ThinItalic.otf */; };
+		5CBB20BF24BEF7EB00BFFCAB /* MontserratAlternates-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB209C24BEF7E800BFFCAB /* MontserratAlternates-LightItalic.otf */; };
+		5CBB20C024BEF7EB00BFFCAB /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB209D24BEF7E800BFFCAB /* MontserratAlternates-Black.otf */; };
+		5CBB20C124BEF7EB00BFFCAB /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB209E24BEF7E800BFFCAB /* Montserrat-LightItalic.otf */; };
+		5CBB20C224BEF7EB00BFFCAB /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB209F24BEF7E800BFFCAB /* Montserrat-Medium.otf */; };
+		5CBB20C324BEF7EB00BFFCAB /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A024BEF7E900BFFCAB /* Montserrat-BlackItalic.otf */; };
+		5CBB20C424BEF7EB00BFFCAB /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A124BEF7E900BFFCAB /* Montserrat-ThinItalic.otf */; };
+		5CBB20C524BEF7EB00BFFCAB /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A224BEF7E900BFFCAB /* Montserrat-Light.otf */; };
+		5CBB20C624BEF7EB00BFFCAB /* MontserratAlternates-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A324BEF7E900BFFCAB /* MontserratAlternates-ExtraLightItalic.otf */; };
+		5CBB20C724BEF7EB00BFFCAB /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A424BEF7E900BFFCAB /* MontserratAlternates-ExtraLight.otf */; };
+		5CBB20C824BEF7EB00BFFCAB /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A524BEF7E900BFFCAB /* Montserrat-Italic.otf */; };
+		5CBB20C924BEF7EB00BFFCAB /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A624BEF7E900BFFCAB /* MontserratAlternates-Thin.otf */; };
+		5CBB20CA24BEF7EB00BFFCAB /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A724BEF7E900BFFCAB /* Montserrat-BoldItalic.otf */; };
+		5CBB20CB24BEF7EB00BFFCAB /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A824BEF7E900BFFCAB /* MontserratAlternates-BoldItalic.otf */; };
+		5CBB20CC24BEF7EB00BFFCAB /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20A924BEF7E900BFFCAB /* Montserrat-SemiBold.otf */; };
+		5CBB20CD24BEF7EB00BFFCAB /* MontserratAlternates-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AA24BEF7E900BFFCAB /* MontserratAlternates-BlackItalic.otf */; };
+		5CBB20CE24BEF7EB00BFFCAB /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AB24BEF7E900BFFCAB /* Montserrat-Regular.otf */; };
+		5CBB20CF24BEF7EB00BFFCAB /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AC24BEF7E900BFFCAB /* MontserratAlternates-Regular.otf */; };
+		5CBB20D024BEF7EB00BFFCAB /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AD24BEF7E900BFFCAB /* Montserrat-Black.otf */; };
+		5CBB20D124BEF7EB00BFFCAB /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AE24BEF7E900BFFCAB /* MontserratAlternates-SemiBold.otf */; };
+		5CBB20D224BEF7EB00BFFCAB /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20AF24BEF7E900BFFCAB /* Montserrat-ExtraLightItalic.otf */; };
+		5CBB20D324BEF7EB00BFFCAB /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B024BEF7E900BFFCAB /* Montserrat-ExtraLight.otf */; };
+		5CBB20D424BEF7EB00BFFCAB /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B124BEF7EA00BFFCAB /* MontserratAlternates-Light.otf */; };
+		5CBB20D524BEF7EB00BFFCAB /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B224BEF7EA00BFFCAB /* MontserratAlternates-Italic.otf */; };
+		5CBB20D624BEF7EB00BFFCAB /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B324BEF7EA00BFFCAB /* Montserrat-ExtraBold.otf */; };
+		5CBB20D724BEF7EB00BFFCAB /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B424BEF7EA00BFFCAB /* Montserrat-ExtraBoldItalic.otf */; };
+		5CBB20D824BEF7EB00BFFCAB /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B524BEF7EA00BFFCAB /* Montserrat-SemiBoldItalic.otf */; };
+		5CBB20D924BEF7EB00BFFCAB /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B624BEF7EA00BFFCAB /* Montserrat-Bold.otf */; };
+		5CBB20DA24BEF7EB00BFFCAB /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B724BEF7EA00BFFCAB /* MontserratAlternates-ExtraBold.otf */; };
+		5CBB20DB24BEF7EB00BFFCAB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B824BEF7EA00BFFCAB /* MontserratAlternates-ExtraBoldItalic.otf */; };
+		5CBB20DC24BEF7EB00BFFCAB /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20B924BEF7EA00BFFCAB /* Montserrat-MediumItalic.otf */; };
+		5CBB20DD24BEF7EB00BFFCAB /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20BA24BEF7EA00BFFCAB /* MontserratAlternates-Medium.otf */; };
+		5CBB20DE24BEF7EB00BFFCAB /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20BB24BEF7EA00BFFCAB /* MontserratAlternates-Bold.otf */; };
+		5CBB20DF24BEF7EB00BFFCAB /* MontserratAlternates-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20BC24BEF7EA00BFFCAB /* MontserratAlternates-MediumItalic.otf */; };
+		5CBB20E024BEF7EB00BFFCAB /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB20BD24BEF7EA00BFFCAB /* Montserrat-Thin.otf */; };
+		6B793B52893BAFF7E26268A2 /* libPods-Waspha.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 443A083EF638338EC71E0DFD /* libPods-Waspha.a */; };
+		900005A96E45082811247538 /* libPods-Waspha-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6A5CDF71550E7F858477B6 /* libPods-Waspha-tvOSTests.a */; };
+		C928B7911679D2E6BBAD8C9C /* libPods-Waspha-WasphaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C5A30D9DC74066B00279C5 /* libPods-Waspha-WasphaTests.a */; };
+		FAE6BFC925B0B9FE002C7C96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE6BFC825B0B9FE002C7C96 /* GoogleService-Info.plist */; };
+		FF13CA752BFF45CB82E54B9F /* Lateef-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A98389B5744541AEAC83CF68 /* Lateef-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Waspha;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Waspha-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* WasphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WasphaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasphaTests.m; sourceTree = "<group>"; };
+		031E6F2031334B6AAA3C787D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		03381C086D1844D9BA2CC656 /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-SemiBoldItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		03C5A30D9DC74066B00279C5 /* libPods-Waspha-WasphaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waspha-WasphaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0422FBCBF7EB40988755B382 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		048C45AF25A723B4008B51EE /* Waspha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waspha-Bridging-Header.h"; sourceTree = "<group>"; };
+		048C45B025A723B4008B51EE /* Waspha-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waspha-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		048C45B125A723B5008B51EE /* void.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = void.swift; sourceTree = "<group>"; };
+		11A739AB870343E4970A1BB6 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Waspha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waspha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Waspha/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Waspha/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Waspha/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Waspha/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Waspha/main.m; sourceTree = "<group>"; };
+		1457342F243A44B7BC700970 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		1739A04FF3F520D60D3A9469 /* Pods-Waspha-WasphaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-WasphaTests.release.xcconfig"; path = "Target Support Files/Pods-Waspha-WasphaTests/Pods-Waspha-WasphaTests.release.xcconfig"; sourceTree = "<group>"; };
+		22BBC5987A294BB1ACFFA15C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Waspha-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waspha-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Waspha-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waspha-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		340751C4861F0C1A1DD85C5F /* Pods-Waspha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha.debug.xcconfig"; path = "Target Support Files/Pods-Waspha/Pods-Waspha.debug.xcconfig"; sourceTree = "<group>"; };
+		443A083EF638338EC71E0DFD /* libPods-Waspha.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waspha.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3E64C765164C09A40386E8 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		4CF2DD6451F179F57D78FD16 /* Pods-Waspha-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Waspha-tvOSTests/Pods-Waspha-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5599CC96A21F442884CC95E9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		5CBB209A24BEF7E800BFFCAB /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-SemiBoldItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB209B24BEF7E800BFFCAB /* MontserratAlternates-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-ThinItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-ThinItalic.otf"; sourceTree = "<group>"; };
+		5CBB209C24BEF7E800BFFCAB /* MontserratAlternates-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-LightItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-LightItalic.otf"; sourceTree = "<group>"; };
+		5CBB209D24BEF7E800BFFCAB /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Black.otf"; path = "../src/assets/fonts/MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		5CBB209E24BEF7E800BFFCAB /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-LightItalic.otf"; path = "../src/assets/fonts/Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		5CBB209F24BEF7E800BFFCAB /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.otf"; path = "../src/assets/fonts/Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		5CBB20A024BEF7E900BFFCAB /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BlackItalic.otf"; path = "../src/assets/fonts/Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		5CBB20A124BEF7E900BFFCAB /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ThinItalic.otf"; path = "../src/assets/fonts/Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		5CBB20A224BEF7E900BFFCAB /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.otf"; path = "../src/assets/fonts/Montserrat-Light.otf"; sourceTree = "<group>"; };
+		5CBB20A324BEF7E900BFFCAB /* MontserratAlternates-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-ExtraLightItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		5CBB20A424BEF7E900BFFCAB /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-ExtraLight.otf"; path = "../src/assets/fonts/MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		5CBB20A524BEF7E900BFFCAB /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.otf"; path = "../src/assets/fonts/Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		5CBB20A624BEF7E900BFFCAB /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Thin.otf"; path = "../src/assets/fonts/MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		5CBB20A724BEF7E900BFFCAB /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.otf"; path = "../src/assets/fonts/Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB20A824BEF7E900BFFCAB /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-BoldItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB20A924BEF7E900BFFCAB /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.otf"; path = "../src/assets/fonts/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		5CBB20AA24BEF7E900BFFCAB /* MontserratAlternates-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-BlackItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-BlackItalic.otf"; sourceTree = "<group>"; };
+		5CBB20AB24BEF7E900BFFCAB /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.otf"; path = "../src/assets/fonts/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		5CBB20AC24BEF7E900BFFCAB /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Regular.otf"; path = "../src/assets/fonts/MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		5CBB20AD24BEF7E900BFFCAB /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.otf"; path = "../src/assets/fonts/Montserrat-Black.otf"; sourceTree = "<group>"; };
+		5CBB20AE24BEF7E900BFFCAB /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-SemiBold.otf"; path = "../src/assets/fonts/MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		5CBB20AF24BEF7E900BFFCAB /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLightItalic.otf"; path = "../src/assets/fonts/Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		5CBB20B024BEF7E900BFFCAB /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.otf"; path = "../src/assets/fonts/Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		5CBB20B124BEF7EA00BFFCAB /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Light.otf"; path = "../src/assets/fonts/MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		5CBB20B224BEF7EA00BFFCAB /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Italic.otf"; path = "../src/assets/fonts/MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		5CBB20B324BEF7EA00BFFCAB /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.otf"; path = "../src/assets/fonts/Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		5CBB20B424BEF7EA00BFFCAB /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBoldItalic.otf"; path = "../src/assets/fonts/Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB20B524BEF7EA00BFFCAB /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.otf"; path = "../src/assets/fonts/Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB20B624BEF7EA00BFFCAB /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.otf"; path = "../src/assets/fonts/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		5CBB20B724BEF7EA00BFFCAB /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-ExtraBold.otf"; path = "../src/assets/fonts/MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		5CBB20B824BEF7EA00BFFCAB /* MontserratAlternates-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-ExtraBoldItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		5CBB20B924BEF7EA00BFFCAB /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.otf"; path = "../src/assets/fonts/Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		5CBB20BA24BEF7EA00BFFCAB /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Medium.otf"; path = "../src/assets/fonts/MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		5CBB20BB24BEF7EA00BFFCAB /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-Bold.otf"; path = "../src/assets/fonts/MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		5CBB20BC24BEF7EA00BFFCAB /* MontserratAlternates-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MontserratAlternates-MediumItalic.otf"; path = "../src/assets/fonts/MontserratAlternates-MediumItalic.otf"; sourceTree = "<group>"; };
+		5CBB20BD24BEF7EA00BFFCAB /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.otf"; path = "../src/assets/fonts/Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		6465E2CDA459BF79BE40BE38 /* Pods-Waspha-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Waspha-tvOSTests/Pods-Waspha-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CAF36FB373041C795469D95 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		6E44B686A31D981055CFAE1D /* Pods-Waspha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha.release.xcconfig"; path = "Target Support Files/Pods-Waspha/Pods-Waspha.release.xcconfig"; sourceTree = "<group>"; };
+		7545690B50FA8749A4CAD3F3 /* Pods-Waspha-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Waspha-tvOS/Pods-Waspha-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7E7E2EC41819ED28512FEB93 /* Pods-Waspha-WasphaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-WasphaTests.debug.xcconfig"; path = "Target Support Files/Pods-Waspha-WasphaTests/Pods-Waspha-WasphaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9424215C5B15A3ABDEEADD40 /* libPods-Waspha-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waspha-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		956D553E081949D4AAAC86EB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		98CF851071814CDFA2B539EE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A85E6EE3C3A74EC0B71A53AB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		A98389B5744541AEAC83CF68 /* Lateef-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lateef-Regular.otf"; path = "../src/assets/fonts/Lateef-Regular.otf"; sourceTree = "<group>"; };
+		B0DE98704E494C2BB142645B /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C334C0AB4A384ADFAFB08611 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		C70D49DF56F19C19F77352DE /* Pods-Waspha-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waspha-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Waspha-tvOS/Pods-Waspha-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB67649D6E9E43D0B4EABBBD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		E2A293AE0AAF40119E1BA22F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		E5FAF66013784E1ABDE2B1B4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FAE6BF7125B0B533002C7C96 /* Waspha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Waspha.entitlements; path = Waspha/Waspha.entitlements; sourceTree = "<group>"; };
+		FAE6BFC825B0B9FE002C7C96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Waspha/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB6A5CDF71550E7F858477B6 /* libPods-Waspha-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Waspha-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928B7911679D2E6BBAD8C9C /* libPods-Waspha-WasphaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B793B52893BAFF7E26268A2 /* libPods-Waspha.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56091A4F8057EC45288CECF7 /* libPods-Waspha-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900005A96E45082811247538 /* libPods-Waspha-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WasphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WasphaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WasphaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05409C40B00D42DDA61BC364 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A98389B5744541AEAC83CF68 /* Lateef-Regular.otf */,
+				4C3E64C765164C09A40386E8 /* AntDesign.ttf */,
+				C334C0AB4A384ADFAFB08611 /* Entypo.ttf */,
+				0422FBCBF7EB40988755B382 /* EvilIcons.ttf */,
+				956D553E081949D4AAAC86EB /* Feather.ttf */,
+				B0DE98704E494C2BB142645B /* FontAwesome.ttf */,
+				031E6F2031334B6AAA3C787D /* FontAwesome5_Brands.ttf */,
+				1457342F243A44B7BC700970 /* FontAwesome5_Regular.ttf */,
+				DB67649D6E9E43D0B4EABBBD /* FontAwesome5_Solid.ttf */,
+				11A739AB870343E4970A1BB6 /* Fontisto.ttf */,
+				5599CC96A21F442884CC95E9 /* Foundation.ttf */,
+				E5FAF66013784E1ABDE2B1B4 /* Ionicons.ttf */,
+				E2A293AE0AAF40119E1BA22F /* MaterialCommunityIcons.ttf */,
+				6CAF36FB373041C795469D95 /* MaterialIcons.ttf */,
+				98CF851071814CDFA2B539EE /* Octicons.ttf */,
+				22BBC5987A294BB1ACFFA15C /* SimpleLineIcons.ttf */,
+				A85E6EE3C3A74EC0B71A53AB /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Waspha */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6BF7125B0B533002C7C96 /* Waspha.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				048C45B125A723B5008B51EE /* void.swift */,
+				048C45AF25A723B4008B51EE /* Waspha-Bridging-Header.h */,
+				048C45B025A723B4008B51EE /* Waspha-tvOS-Bridging-Header.h */,
+			);
+			name = Waspha;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				443A083EF638338EC71E0DFD /* libPods-Waspha.a */,
+				03C5A30D9DC74066B00279C5 /* libPods-Waspha-WasphaTests.a */,
+				9424215C5B15A3ABDEEADD40 /* libPods-Waspha-tvOS.a */,
+				FB6A5CDF71550E7F858477B6 /* libPods-Waspha-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D4C833D60298ACB072AD07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				340751C4861F0C1A1DD85C5F /* Pods-Waspha.debug.xcconfig */,
+				6E44B686A31D981055CFAE1D /* Pods-Waspha.release.xcconfig */,
+				7E7E2EC41819ED28512FEB93 /* Pods-Waspha-WasphaTests.debug.xcconfig */,
+				1739A04FF3F520D60D3A9469 /* Pods-Waspha-WasphaTests.release.xcconfig */,
+				7545690B50FA8749A4CAD3F3 /* Pods-Waspha-tvOS.debug.xcconfig */,
+				C70D49DF56F19C19F77352DE /* Pods-Waspha-tvOS.release.xcconfig */,
+				4CF2DD6451F179F57D78FD16 /* Pods-Waspha-tvOSTests.debug.xcconfig */,
+				6465E2CDA459BF79BE40BE38 /* Pods-Waspha-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CBB209924BEF7B400BFFCAB /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				03381C086D1844D9BA2CC656 /* MontserratAlternates-SemiBoldItalic.otf */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				FAE6BFC825B0B9FE002C7C96 /* GoogleService-Info.plist */,
+				5CBB20AD24BEF7E900BFFCAB /* Montserrat-Black.otf */,
+				5CBB20A024BEF7E900BFFCAB /* Montserrat-BlackItalic.otf */,
+				5CBB20B624BEF7EA00BFFCAB /* Montserrat-Bold.otf */,
+				5CBB20A724BEF7E900BFFCAB /* Montserrat-BoldItalic.otf */,
+				5CBB20B324BEF7EA00BFFCAB /* Montserrat-ExtraBold.otf */,
+				5CBB20B424BEF7EA00BFFCAB /* Montserrat-ExtraBoldItalic.otf */,
+				5CBB20B024BEF7E900BFFCAB /* Montserrat-ExtraLight.otf */,
+				5CBB20AF24BEF7E900BFFCAB /* Montserrat-ExtraLightItalic.otf */,
+				5CBB20A524BEF7E900BFFCAB /* Montserrat-Italic.otf */,
+				5CBB20A224BEF7E900BFFCAB /* Montserrat-Light.otf */,
+				5CBB209E24BEF7E800BFFCAB /* Montserrat-LightItalic.otf */,
+				5CBB209F24BEF7E800BFFCAB /* Montserrat-Medium.otf */,
+				5CBB20B924BEF7EA00BFFCAB /* Montserrat-MediumItalic.otf */,
+				5CBB20AB24BEF7E900BFFCAB /* Montserrat-Regular.otf */,
+				5CBB20A924BEF7E900BFFCAB /* Montserrat-SemiBold.otf */,
+				5CBB20B524BEF7EA00BFFCAB /* Montserrat-SemiBoldItalic.otf */,
+				5CBB20BD24BEF7EA00BFFCAB /* Montserrat-Thin.otf */,
+				5CBB20A124BEF7E900BFFCAB /* Montserrat-ThinItalic.otf */,
+				5CBB209D24BEF7E800BFFCAB /* MontserratAlternates-Black.otf */,
+				5CBB20AA24BEF7E900BFFCAB /* MontserratAlternates-BlackItalic.otf */,
+				5CBB20BB24BEF7EA00BFFCAB /* MontserratAlternates-Bold.otf */,
+				5CBB20A824BEF7E900BFFCAB /* MontserratAlternates-BoldItalic.otf */,
+				5CBB20B724BEF7EA00BFFCAB /* MontserratAlternates-ExtraBold.otf */,
+				5CBB20B824BEF7EA00BFFCAB /* MontserratAlternates-ExtraBoldItalic.otf */,
+				5CBB20A424BEF7E900BFFCAB /* MontserratAlternates-ExtraLight.otf */,
+				5CBB20A324BEF7E900BFFCAB /* MontserratAlternates-ExtraLightItalic.otf */,
+				5CBB20B224BEF7EA00BFFCAB /* MontserratAlternates-Italic.otf */,
+				5CBB20B124BEF7EA00BFFCAB /* MontserratAlternates-Light.otf */,
+				5CBB209C24BEF7E800BFFCAB /* MontserratAlternates-LightItalic.otf */,
+				5CBB20BA24BEF7EA00BFFCAB /* MontserratAlternates-Medium.otf */,
+				5CBB20BC24BEF7EA00BFFCAB /* MontserratAlternates-MediumItalic.otf */,
+				5CBB20AC24BEF7E900BFFCAB /* MontserratAlternates-Regular.otf */,
+				5CBB20AE24BEF7E900BFFCAB /* MontserratAlternates-SemiBold.otf */,
+				5CBB209A24BEF7E800BFFCAB /* MontserratAlternates-SemiBoldItalic.otf */,
+				5CBB20A624BEF7E900BFFCAB /* MontserratAlternates-Thin.otf */,
+				5CBB209B24BEF7E800BFFCAB /* MontserratAlternates-ThinItalic.otf */,
+				13B07FAE1A68108700A75B9A /* Waspha */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WasphaTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				53D4C833D60298ACB072AD07 /* Pods */,
+				5CBB209924BEF7B400BFFCAB /* Recovered References */,
+				05409C40B00D42DDA61BC364 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Waspha.app */,
+				00E356EE1AD99517003FC87E /* WasphaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Waspha-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Waspha-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WasphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WasphaTests" */;
+			buildPhases = (
+				82FD82CF8B2C14B1B83E16A7 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				E2AE5D1B61394CEEF16D7180 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WasphaTests;
+			productName = WasphaTests;
+			productReference = 00E356EE1AD99517003FC87E /* WasphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Waspha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Waspha" */;
+			buildPhases = (
+				37865A7AA99845C0236993F6 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E2DEAD1CFD03E0361124B3FE /* [CP] Copy Pods Resources */,
+				43A0C81E65BCE4D67C633446 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waspha;
+			productName = Waspha;
+			productReference = 13B07F961A680F5B00A75B9A /* Waspha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Waspha-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Waspha-tvOS" */;
+			buildPhases = (
+				87DB3F08BED99E2072F1A9CF /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waspha-tvOS";
+			productName = "Waspha-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Waspha-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Waspha-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Waspha-tvOSTests" */;
+			buildPhases = (
+				FB5D21C0C3E69A93C47E07D2 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Waspha-tvOSTests";
+			productName = "Waspha-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Waspha-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 955MUCV3HW;
+						LastSwiftMigration = 1230;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1230;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 955MUCV3HW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Waspha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Waspha */,
+				00E356ED1AD99517003FC87E /* WasphaTests */,
+				2D02E47A1E0B4A5D006451C7 /* Waspha-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Waspha-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051F41B2A55240ACA25FA2A7 /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
+				5CBB20BE24BEF7EB00BFFCAB /* MontserratAlternates-ThinItalic.otf in Resources */,
+				5CBB20BF24BEF7EB00BFFCAB /* MontserratAlternates-LightItalic.otf in Resources */,
+				5CBB20C024BEF7EB00BFFCAB /* MontserratAlternates-Black.otf in Resources */,
+				5CBB20C124BEF7EB00BFFCAB /* Montserrat-LightItalic.otf in Resources */,
+				5CBB20C224BEF7EB00BFFCAB /* Montserrat-Medium.otf in Resources */,
+				5CBB20C324BEF7EB00BFFCAB /* Montserrat-BlackItalic.otf in Resources */,
+				5CBB20C424BEF7EB00BFFCAB /* Montserrat-ThinItalic.otf in Resources */,
+				5CBB20C524BEF7EB00BFFCAB /* Montserrat-Light.otf in Resources */,
+				5CBB20C624BEF7EB00BFFCAB /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
+				5CBB20C724BEF7EB00BFFCAB /* MontserratAlternates-ExtraLight.otf in Resources */,
+				5CBB20C824BEF7EB00BFFCAB /* Montserrat-Italic.otf in Resources */,
+				5CBB20C924BEF7EB00BFFCAB /* MontserratAlternates-Thin.otf in Resources */,
+				5CBB20CA24BEF7EB00BFFCAB /* Montserrat-BoldItalic.otf in Resources */,
+				5CBB20CB24BEF7EB00BFFCAB /* MontserratAlternates-BoldItalic.otf in Resources */,
+				5CBB20CC24BEF7EB00BFFCAB /* Montserrat-SemiBold.otf in Resources */,
+				5CBB20CD24BEF7EB00BFFCAB /* MontserratAlternates-BlackItalic.otf in Resources */,
+				FAE6BFC925B0B9FE002C7C96 /* GoogleService-Info.plist in Resources */,
+				5CBB20CE24BEF7EB00BFFCAB /* Montserrat-Regular.otf in Resources */,
+				5CBB20CF24BEF7EB00BFFCAB /* MontserratAlternates-Regular.otf in Resources */,
+				5CBB20D024BEF7EB00BFFCAB /* Montserrat-Black.otf in Resources */,
+				5CBB20D124BEF7EB00BFFCAB /* MontserratAlternates-SemiBold.otf in Resources */,
+				5CBB20D224BEF7EB00BFFCAB /* Montserrat-ExtraLightItalic.otf in Resources */,
+				5CBB20D324BEF7EB00BFFCAB /* Montserrat-ExtraLight.otf in Resources */,
+				5CBB20D424BEF7EB00BFFCAB /* MontserratAlternates-Light.otf in Resources */,
+				5CBB20D524BEF7EB00BFFCAB /* MontserratAlternates-Italic.otf in Resources */,
+				5CBB20D624BEF7EB00BFFCAB /* Montserrat-ExtraBold.otf in Resources */,
+				5CBB20D724BEF7EB00BFFCAB /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				5CBB20D824BEF7EB00BFFCAB /* Montserrat-SemiBoldItalic.otf in Resources */,
+				5CBB20D924BEF7EB00BFFCAB /* Montserrat-Bold.otf in Resources */,
+				5CBB20DA24BEF7EB00BFFCAB /* MontserratAlternates-ExtraBold.otf in Resources */,
+				5CBB20DB24BEF7EB00BFFCAB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
+				5CBB20DC24BEF7EB00BFFCAB /* Montserrat-MediumItalic.otf in Resources */,
+				5CBB20DD24BEF7EB00BFFCAB /* MontserratAlternates-Medium.otf in Resources */,
+				5CBB20DE24BEF7EB00BFFCAB /* MontserratAlternates-Bold.otf in Resources */,
+				5CBB20DF24BEF7EB00BFFCAB /* MontserratAlternates-MediumItalic.otf in Resources */,
+				5CBB20E024BEF7EB00BFFCAB /* Montserrat-Thin.otf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				02B90EBB8AE648CF84A936B7 /* (null) in Resources */,
+				FF13CA752BFF45CB82E54B9F /* Lateef-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		37865A7AA99845C0236993F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waspha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43A0C81E65BCE4D67C633446 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		82FD82CF8B2C14B1B83E16A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waspha-WasphaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87DB3F08BED99E2072F1A9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waspha-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AE5D1B61394CEEF16D7180 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waspha-WasphaTests/Pods-Waspha-WasphaTests-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waspha-WasphaTests/Pods-Waspha-WasphaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DEAD1CFD03E0361124B3FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Waspha/Pods-Waspha-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Waspha/Pods-Waspha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5D21C0C3E69A93C47E07D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Waspha-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WasphaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				048C45B225A723B5008B51EE /* void.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+				048C45B325A723B5008B51EE /* void.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* WasphaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Waspha */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Waspha-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Waspha;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7E2EC41819ED28512FEB93 /* Pods-Waspha-WasphaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WasphaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waspha.app/Waspha";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1739A04FF3F520D60D3A9469 /* Pods-Waspha-WasphaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WasphaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waspha.app/Waspha";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340751C4861F0C1A1DD85C5F /* Pods-Waspha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Waspha/Waspha.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 955MUCV3HW;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+					"HAVE_GOOGLE_MAPS=1",
+				);
+				INFOPLIST_FILE = Waspha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.10;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waspha.user.sg;
+				PRODUCT_NAME = Waspha;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Waspha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E44B686A31D981055CFAE1D /* Pods-Waspha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Waspha/Waspha.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 955MUCV3HW;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"FBSDKCOCOAPODS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+					"HAVE_GOOGLE_MAPS=1",
+				);
+				INFOPLIST_FILE = Waspha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.10;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waspha.user.sg;
+				PRODUCT_NAME = Waspha;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Waspha-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7545690B50FA8749A4CAD3F3 /* Pods-Waspha-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Waspha-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Waspha-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Waspha-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70D49DF56F19C19F77352DE /* Pods-Waspha-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Waspha-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Waspha-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Waspha-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF2DD6451F179F57D78FD16 /* Pods-Waspha-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 955MUCV3HW;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Waspha-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Waspha-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waspha-tvOS.app/Waspha-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6465E2CDA459BF79BE40BE38 /* Pods-Waspha-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 955MUCV3HW;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Waspha-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Waspha-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waspha-tvOS.app/Waspha-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WasphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Waspha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Waspha-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Waspha-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Waspha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

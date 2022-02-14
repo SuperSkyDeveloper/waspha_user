@@ -1,0 +1,3 @@
+import AvailableCategoriesOnMapController from './AvailableCategoriesOnMapController';
+
+export default AvailableCategoriesOnMapController;
